@@ -3,20 +3,20 @@ from graph.Vertex import Vertex
 
 
 class Graph:
-    arad = Vertex('Arad')
-    zerind = Vertex('Zerind')
-    oradea = Vertex('Oradea')
-    sibiu = Vertex('Sibiu')
-    timisoara = Vertex('Timisoara')
-    lugoj = Vertex('Lugoj')
-    mehadia = Vertex('Mehadia')
-    dobreta = Vertex('Dobreta')
-    craiova = Vertex('Craiova')
-    rimnicu = Vertex('Rimnicu')
-    fagaras = Vertex('Fagaras')
-    pitesti = Vertex('Pitestit')
-    bucharest = Vertex('Bucharest')
-    giurgiu = Vertex('Giurgiu')
+    arad = Vertex('Arad', 366)
+    zerind = Vertex('Zerind', 374)
+    oradea = Vertex('Oradea', 380)
+    sibiu = Vertex('Sibiu', 253)
+    timisoara = Vertex('Timisoara', 329)
+    lugoj = Vertex('Lugoj', 244)
+    mehadia = Vertex('Mehadia', 241)
+    dobreta = Vertex('Dobreta', 242)
+    craiova = Vertex('Craiova', 160)
+    rimnicu = Vertex('Rimnicu', 193)
+    fagaras = Vertex('Fagaras', 178)
+    pitesti = Vertex('Pitestit', 98)
+    bucharest = Vertex('Bucharest', 0)
+    giurgiu = Vertex('Giurgiu', 77)
 
     arad.addAdjacent(Adjacent(zerind, 75))
     arad.addAdjacent(Adjacent(sibiu, 140))
@@ -66,5 +66,3 @@ class Graph:
 
 
 graph = Graph()
-
-graph.arad.showAdjacents()
