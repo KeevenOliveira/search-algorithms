@@ -1,5 +1,5 @@
-from graph.Adjacent import Adjacent
-from graph.Vertex import Vertex
+from graphGreedySearch.Adjacent import Adjacent
+from graphGreedySearch.Vertex import Vertex
 
 
 class Graph:

@@ -1,7 +1,5 @@
 import numpy as np
 
-from graph.Graph import graph
-
 
 class OrderedVector:
     def __init__(self, capacity):

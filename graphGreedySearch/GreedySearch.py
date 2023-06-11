@@ -1,4 +1,4 @@
-from graph.OrderedVectorToGraph import OrderedVector
+from graphGreedySearch.OrderedVectorToGraph import OrderedVector
 
 
 class GreedySearch:
